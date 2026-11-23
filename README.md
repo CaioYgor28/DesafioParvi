@@ -51,6 +51,12 @@ Then run:
 python main.py
 ```
 
+Run the formatting regression checks without sending an email:
+
+```bash
+python -m unittest discover -s tests
+```
+
 The scraper uses the Chrome browser. An internet connection is needed for the website and email delivery.
 
 ## Repository layout
